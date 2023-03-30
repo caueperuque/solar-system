@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100&display=swap') ;
+
 .App {
   text-align: center;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+}
+
+.page__text-font {
+  font-family: Epilogue , sans-serif;
 }
