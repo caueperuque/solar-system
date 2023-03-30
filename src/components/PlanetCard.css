@@ -36,3 +36,12 @@
   transform: scaleX(-1);
   width: 144px;
 }
+
+.planetcard__planets {
+  transform: rotate(360deg);
+  transition: transform 3s ease-out;
+}
+
+.planetcard__planets:hover {
+  transform: rotate(-45deg) scale(1.5);
+}

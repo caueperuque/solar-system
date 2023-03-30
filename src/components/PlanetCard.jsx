@@ -10,7 +10,7 @@ export default class PlanetCard extends Component {
         <img
           src={ planetImage }
           alt={ `Planeta ${planetName}` }
-          className={ `systemsolar__${planetName}` }
+          className={ `systemsolar__${planetName} planetcard__planets` }
         />
         <p
           data-testid="planet-name"
