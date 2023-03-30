@@ -7,7 +7,7 @@ export default class SolarSystem extends Component {
   render() {
     return (
       <div data-testid="solar-system">
-        <Title headline="Planetas" />
+        <Title headline="PLANETAS" />
         { planets.map((planet) => (
           <PlanetCard
             key={ planet.name }
