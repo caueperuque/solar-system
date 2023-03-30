@@ -14,7 +14,8 @@ export default class PlanetCard extends Component {
         />
         <p
           data-testid="planet-name"
-          className="page__text-font planetcard__text-center planetcard__text-weight">
+          className="page__text-font planetcard__text-center planetcard__text-weight"
+        >
           { planetName }
         </p>
       </div>
