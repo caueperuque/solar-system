@@ -1,0 +1,9 @@
+.systemsolar__container {
+  display: flex;
+  justify-content: center;
+}
+
+.systemsolar__planets {
+  align-items: center;
+  display: flex;
+}

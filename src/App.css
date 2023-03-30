@@ -12,3 +12,7 @@ body {
 .page__text-font {
   font-family: Epilogue , sans-serif;
 }
+
+.planetcard__text-center {
+  text-align: center;
+}

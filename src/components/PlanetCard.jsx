@@ -7,14 +7,16 @@ export default class PlanetCard extends Component {
     const { planetName, planetImage } = this.props;
     return (
       <div data-testid="planet-card">
-        <p data-testid="planet-name" className="page__text-font">
-          { planetName }
-        </p>
         <img
           src={ planetImage }
           alt={ `Planeta ${planetName}` }
           className={ `systemsolar__${planetName}` }
         />
+        <p
+          data-testid="planet-name"
+          className="page__text-font planetcard__text-center planetcard__text-weight">
+          { planetName }
+        </p>
       </div>
     );
   }
