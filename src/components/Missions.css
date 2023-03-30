@@ -1,21 +1,24 @@
 .missions__container {
   background-color: rgba(255, 255, 255, 0.1);
-  border: solid blue 2px;
   border-radius: 14px;
+  height: 2276px;
+  margin-top: 3%;
   padding: 15px;
-  width: 80%;
+  width: 1098px;
 }
 
 .missions__sub-container {
-  border: solid red 2px;
+  align-content: space-around;
   display: flex;
   flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-around;
   padding: 30px;
+  width: 100%;
 }
 
 .missions__main-container {
   align-items: center;
-  border: solid green 2px;
   display: flex;
   flex-direction: column;
 }

@@ -1,0 +1,18 @@
+.missioncard__text-title {
+  font-size: 28px;
+  line-height: 120%;
+  text-align: left;
+}
+
+.mission__card {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid white 1px;
+  border-radius: 17px;
+  height: 192px;
+  padding: 20px;
+  width: 480px;
+}
+
+.missioncard__text-weight {
+  font-weight: 600;
+}
