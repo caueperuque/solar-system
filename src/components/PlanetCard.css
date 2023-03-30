@@ -1,0 +1,33 @@
+.systemsolar__Mercúrio {
+  width: 41px;
+}
+
+.systemsolar__Vênus {
+  width: 102px;
+}
+
+.systemsolar__Terra {
+  width: 106px;
+}
+
+.systemsolar__Marte {
+  width: 66px;
+}
+
+.systemsolar__Júpiter {
+  width: 272px;
+}
+
+.systemsolar__Saturno {
+  transform: rotate(-16.53deg);
+  width: 282.41px;
+}
+
+.systemsolar__Urano {
+  width: 144px;
+}
+
+.systemsolar__Netuno {
+  transform: scaleX(-1);
+  width: 144px;
+}
