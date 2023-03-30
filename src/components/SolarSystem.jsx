@@ -7,7 +7,7 @@ import './SolarSystem.css';
 export default class SolarSystem extends Component {
   render() {
     return (
-      <div data-testid="solar-system">
+      <div data-testid="solar-system" className="planetcard__container">
         <Title headline="PLANETAS" />
         <section className="systemsolar__container">
           <article className="systemsolar__planets">

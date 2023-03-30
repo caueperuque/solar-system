@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100&display=swap') ;
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -15,4 +21,8 @@ body {
 
 .planetcard__text-center {
   text-align: center;
+}
+
+.planetcard__text-weight {
+  font-weight: 600;
 }

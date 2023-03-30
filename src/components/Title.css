@@ -1,5 +1,6 @@
 .page__title-size {
   font-size: 40px;
   line-height: 150%;
+  margin: 14px;
   text-align: center;
 }

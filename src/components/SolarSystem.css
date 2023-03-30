@@ -6,4 +6,5 @@
 .systemsolar__planets {
   align-items: center;
   display: flex;
+  justify-content: center;
 }
